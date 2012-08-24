@@ -6,11 +6,16 @@ This sample provides working code to get someone started with using the bundle.
 
 + Create a "Plugins" directory under the directory where Raven.Server.exe resides.
 + Add a connection string to Raven.Server.exe.config...
-```xml
 	<connectionStrings>
     <add name="Reports"
          providerName="System.Data.SqlClient"
-         connectionString="Data Source=(local);Initial Catalog=Sample;Integrated Security=SSPI;"
-         />
+         connectionString="Data Source=(local);Initial Catalog=Sample;Integrated Security=SSPI;"/>
 	</connectionStrings>
-```
++ Create a database in SQL Server called "Sample".
++ Run the program.
++ Click the Create Table button.
++ Click the Create Index button.
++ Click the configure Replication button.
++ Add a dog to Raven
+
+You should see that dog appear in the Dogs table in SQL Server.
