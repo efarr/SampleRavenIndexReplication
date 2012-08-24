@@ -6,11 +6,11 @@ This sample provides working code to get someone started with using the bundle.
 
 + Create a "Plugins" directory under the directory where Raven.Server.exe resides.
 + Add a connection string to Raven.Server.exe.config...
-	<connectionStrings>
-    <add name="Reports"
-         providerName="System.Data.SqlClient"
-         connectionString="Data Source=(local);Initial Catalog=Sample;Integrated Security=SSPI;"/>
-	</connectionStrings>
+`	<connectionStrings>`
+`    <add name="Reports"`
+`         providerName="System.Data.SqlClient"`
+`         connectionString="Data Source=(local);Initial Catalog=Sample;Integrated Security=SSPI;"/>`
+`	</connectionStrings>`
 + Create a database in SQL Server called "Sample".
 + Run the program.
 + Click the Create Table button.
